@@ -1,0 +1,88 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.Header {
+    color: white;
+    background-color: #1F2937;
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Headerlogo {
+    font-size: 24px;
+}
+.Headertop {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul {
+    display:flex;
+    list-style:none;
+    gap: 20px;
+}
+
+
+.Headerbody {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.Website {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 444px;
+}
+
+.Description {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 444px;
+
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+}
+
+img {
+    max-height: 300px;
+    margin: 20px;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.thought {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 10px;
+}
